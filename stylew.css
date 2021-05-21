@@ -1,0 +1,237 @@
+/*fonts*/
+@font-face{
+    font-family: "Raleway-regular";
+    src:url(./font/Raleway-Regular.ttf)
+}
+@font-face{
+    font-family: "Raleway-medium";
+    src:url(./font/Raleway-Medium.ttf)
+}
+@font-face{
+    font-family: "Raleway-bold";
+    src:url(./font/Raleway-Bold.ttf)
+}
+@font-face{
+    font-family: "Raleway-semibold";
+    src:url(./font/Raleway-SemiBold.ttf)
+}
+@font-face{
+    font-family: "Raleway-black";
+    src:url(./font/Raleway-Black.ttf)
+}
+
+
+/* colors*/
+
+:root{
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#f0f0f0;
+    --heaven:#ffffff;
+    --footer:#20333F;
+}
+
+
+/*Reset */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-font-smoothing:antialiased;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+@media (min-width:576px){
+    .container{
+        max-width:540px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1152px;
+    }
+}
+
+header.topbar{
+    background:var(--secondary);
+    color:var(--pure);
+    font-family: "raleway-semibold";
+    padding: 0.75rem 0;
+}
+header.topbar .auth > div a{
+    color:var(--pure);
+    text-decoration:none;
+}
+header.topbar .icons a{
+    margin-right: 0.6rem;
+}
+header.topbar .auth .divider{
+    padding: 0 1rem;
+}
+header.topbar .auth > div img{
+    margin-right: 0.35rem;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+nav .top .contact h5, nav .top .time h5{
+    font-family: "raleway-black";
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.070rem;
+    font-size:.8rem;
+}
+nav .top .contact h6, nav .top .time h6{
+    font-family: "raleway-medium";
+    letter-spacing: 0.080rem;
+    font-size:0.75rem;
+    color: var(--ternary);
+}
+nav .top .contact img, nav .top .time img{
+    margin-right: 1rem;
+}
+ nav .top .time img{
+    margin-right: 1rem;
+}nav .top .contact img{
+    margin-right: 0.5rem;
+}
+nav .top .{
+    padding: 1.5rem 0;
+}
+.justify-center{
+    justify-content: center;
+}
+nav .navbar a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-family: "raleway-semibold";
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+nav .navbar a.active{
+    background: rgb(187, 72, 72);
+    color: var(--pure);
+}
+nav .navbar a:hover{
+    background: rgb(187, 72, 72);
+    color: var(--pure);
+}
+.magic-shadow{
+    position:relative;
+    background: var(--heaven);
+
+}
+.magic-shadow:after{
+    content:'';
+    dispaly:block;
+    width: 100%;
+    height: 69px;
+    background-image:url(./imgf/shadow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -22px;
+    z-index: -1;
+    background-position: center;
+}
+h1{
+            font-size: 90px;
+            text-align: center;
+
+            font-family: Papyrus;
+            color:black;
+            text-shadow:5px 3px 8px #fff44f;
+        }
+div.background{
+    background-image: url(./imgf/image.jpg);
+     background-size: 1100px;
+   
+            
+}
+div.info{
+    text-align: justify;
+    font-family:  Garamond, sans-serif;
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right:200px;
+     
+ 
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+
+
+}
+.gallery{
+    margin: 85px;
+    border: 1px ;
+    float: left;
+    width: 390px;
+
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.60);
+  
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+     cursor: pointer;
+    transition: 0.2s ease;
+}
+.desc{
+    padding: 15px;
+    background-color:rgb(187, 72, 72);
+    text-align: center;
+
+    
+}
+ .gallery:hover{
+        transform: scale(1.045);
+}
+.desc p{
+    text-align: justify;
+    color:white;
+    font-family: Garamond, sans-serif;
+    font-size:19px; 
+}
+h2{
+    font-family: papyrus;
+    text-shadow:2px 2px 5px #fff44f;
+    color: white;
+    font-size: 35px;
+
+}
