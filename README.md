@@ -11,7 +11,7 @@ The main page of this website is "front.html" which is further lnked to five mor
    
    
   The team members of BETA TECH:-
-  Surabhi Purwar
-  Hrishika Jaiswar
-  Hitakshi Jhamnani
-  Shweta Raj Jyoti
+  Surabhi Purwar,
+  Hrishika Jaiswar,
+  Hitakshi Jhamnani,
+  Shweta Raj Jyoti,
